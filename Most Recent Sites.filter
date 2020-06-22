@@ -1,0 +1,74 @@
+[ {
+  "filetypeFilter" : {
+    "enabled" : false,
+    "audioFilesEnabled" : false,
+    "matchType" : "IS",
+    "useRegex" : false,
+    "hashEnabled" : false,
+    "videoFilesEnabled" : false,
+    "docFilesEnabled" : false,
+    "subFilesEnabled" : false,
+    "exeFilesEnabled" : false,
+    "archivesEnabled" : false,
+    "imagesEnabled" : false,
+    "customs" : null
+  },
+  "originFilter" : {
+    "enabled" : false,
+    "matchType" : "IS",
+    "origins" : [ ]
+  },
+  "hosterURLFilter" : {
+    "enabled" : true,
+    "matchType" : "CONTAINS",
+    "regex" : "youtube.com",
+    "useRegex" : false
+  },
+  "onlineStatusFilter" : {
+    "enabled" : false,
+    "matchType" : "IS",
+    "onlineStatus" : "OFFLINE"
+  },
+  "created" : 1592785108043,
+  "sourceURLFilter" : {
+    "enabled" : true,
+    "matchType" : "CONTAINS",
+    "regex" : "youtube.com",
+    "useRegex" : false
+  },
+  "conditionFilter" : {
+    "enabled" : false,
+    "matchType" : "IS_TRUE",
+    "conditions" : [ ]
+  },
+  "testUrl" : "https://www.youtube.com/watch?v=xnw5SAmKG_4",
+  "enabled" : true,
+  "valid" : true,
+  "packagenameFilter" : {
+    "enabled" : false,
+    "matchType" : "CONTAINS",
+    "regex" : "",
+    "useRegex" : false
+  },
+  "filenameFilter" : {
+    "enabled" : false,
+    "matchType" : "CONTAINS",
+    "regex" : "",
+    "useRegex" : false
+  },
+  "name" : "YOUTUBE",
+  "matchAlwaysFilter" : {
+    "enabled" : false
+  },
+  "pluginStatusFilter" : {
+    "enabled" : false,
+    "matchType" : "IS",
+    "pluginStatus" : "PREMIUM"
+  },
+  "filesizeFilter" : {
+    "enabled" : false,
+    "from" : 0,
+    "matchType" : "BETWEEN",
+    "to" : 0
+  }
+} ]
